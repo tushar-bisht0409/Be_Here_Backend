@@ -1,0 +1,238 @@
+.headerContainer {
+  position: relative;
+  margin: 5vh 10vw 5vh 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerLeft {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  width: 40vw;
+  margin: 10vh 0 10vh 0;
+}
+
+.headerLeft h1 {
+  font-size: 2.8vw;
+  margin: 3vh 0px;
+}
+.headerLeft span {
+  margin: 1.5vh 0;
+  font-size: 14px;
+  margin-right: 3vw;
+  line-height: 5vh;
+}
+
+.searchbar {
+  margin: 2vh 0;
+  position: relative;
+  padding: 1vh 2vw;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(228, 219, 219);
+  border-radius: 1vw;
+}
+
+.searchbar input {
+  width: 20vw;
+  height: 7vh;
+  outline: none;
+  border: none;
+  border-radius: 1vw;
+}
+
+.dropbtn {
+  padding: 2px;
+  margin: 10px 10px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  border-left: 1px solid black;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 60px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  font-size: 13px;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.searchbtn {
+  position: absolute;
+  right: 0px;
+  padding: 14px 18px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 10px;
+  background: orange;
+  border: none;
+  border-radius: 10px;
+}
+
+.headerRight {
+  position: relative;
+  align-items: center;
+  /* min-width: 30vw;
+  min-height: 20vw; */
+  width: 400px;
+  background-image: url("./bg.jpg");
+  height: 275px;
+}
+
+
+.center {
+  text-align: center;
+}
+.color {
+  color: #ffffff;
+}
+.box{
+  flex-direction: column;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .headerContainer {
+    position: relative;
+    margin: 5vh 5vw 5vh 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .headerRight {
+    position: relative;
+    align-items: center;
+    /* min-width: 30vw;
+    min-height: 20vw; */
+    width: 400px;
+    background-image: url("./bg.jpg");
+    height: 270px;
+  }
+
+}
+@media screen and (min-width: 790px) and (max-width: 900px) {
+  .headerContainer {
+    position: relative;
+    margin: 5vh 1vw 5vh 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .searchbar {
+    margin: 2vh 0;
+    position: relative;
+    padding: 1vh 2vw;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(228, 219, 219);
+    border-radius: 1vw;
+  }
+  .headerRight {
+    position: relative;
+    align-items: center;
+    /* min-width: 30vw;
+    min-height: 20vw; */
+    width: 400px;
+    background-image: url("./bg.jpg");
+    height: 275px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .headerContainer {
+    width: 90vw;
+    margin: 5vh 5vw;
+    flex-direction: column-reverse;
+    display: flex;
+  }
+  .headerRight {
+    position: relative;
+    align-items: center;
+    width: 90vw;
+    height: 50vw;
+    background-image: url("./bg.jpg");
+  }
+  
+  .headerLeft {
+    margin: 0 5vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    
+  }
+  
+  .headerLeft h1 {
+    font-size: 6.3vw;
+    margin: 3vh 0vw 3vh 0vw;
+    width: 90vw;
+    align-items: center;
+  }
+  .headerLeft span {
+    width: 90vw;
+    margin: 1vh 0 1vh 0vw;
+    font-size: 2.8vw;
+    line-height: 35px;
+  }
+  
+  .searchbar {
+    margin: 5vh 0;
+    position: relative;
+    padding: 1vh 3vw;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(228, 219, 219);
+    border-radius: 15px;
+  }
+  
+  .searchbar input {
+    width: 45vw;
+    height: 7vh;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+  }
+  
+  .searchbtn {
+    position: absolute;
+    padding: 3vw 3vw;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    background: orange;
+    border: none;
+    border-radius: 10px;
+  }
+  
+}
+

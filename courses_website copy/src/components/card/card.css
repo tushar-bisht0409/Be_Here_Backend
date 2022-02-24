@@ -1,0 +1,101 @@
+.cardContainer {
+  /* border: 2px solid rgb(197, 195, 195); */
+  border-radius: 15px;
+  width: 330px; 
+  height: auto;
+  margin: 20px 30px;
+  z-index: 1;
+  background-color: #fff;
+  /* box-shadow: 7px 11px 10px 1px rgb(0 0 0 / 60%); */
+}
+
+.cardImage { 
+  margin: 7px;
+  align-self: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 316px;
+  height: 180px;
+}
+
+.categoryContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 25px;
+}
+
+.cardCategory {
+  margin: 2vh 0px 0vh 0px;
+  padding: 1vh 1.5vw;
+  align-items: center;
+  background-color: #fdeecf;
+  /* width: 62px; */
+  font-size: 1.1vw;
+  width: 62px;
+  border-radius: 50px;
+  color: orange;
+}
+.spantext {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 1vh 0px 0px 0px;
+}
+
+.cardRating {
+  display: flex;
+  margin: 0px 0px 3vh 0px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.ratingBox {
+  flex-direction: row;
+  align-items: center;
+}
+
+.cardDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cardDetails p {
+  margin: 10px 10px 10px 0px;
+  align-items: center;
+}
+
+.line{
+  margin: 20px 0 10px 0;
+  width: 270px;
+  border-color: rgb(255, 255, 255);
+}
+
+
+.cardInfo {
+  margin: 0 0 10px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.instructor{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cardInfo span {
+  font-size: 13px;
+}
+
+.cardLogo {
+  margin: 2px;
+  padding: 4px 4px;
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+}
+.price {
+  font-size: 18px;
+  color: red;
+  align-self: center;
+}

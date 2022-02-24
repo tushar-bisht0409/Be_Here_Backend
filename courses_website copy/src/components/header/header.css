@@ -1,0 +1,90 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 50px;
+  margin-top: 5rem;
+  /* position: relative; */
+}
+.headerTitles {
+  position: relative;
+  left: 5rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Lora", serif;
+}
+.inst {
+  color: blue;
+}
+
+.headerTitlesText {
+  font-size: 4.5rem;
+  font-weight: bold;
+  /* background-color: #1d244d; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.headerlogo {
+  margin-right: 100px;
+}
+
+.headerImg {
+  width: 100%;
+  height: 300px;
+}
+
+.headerinfo {
+  margin: 3rem 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.headerinfocontent {
+  padding: 2px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  margin: 0px 50px;
+}
+.searchbar {
+  margin: 10px 10px;
+  padding: 5px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbar input {
+  width: 30%;
+  height: 35px;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 5px 4px 7px 1px #6f747e;
+}
+
+.input::placeholder {
+  color: red;
+}
+
+/* utility classes*/
+.center {
+  text-align: center;
+}
+.color {
+  color: #9fa2a8;
+}
+.bold {
+  font-weight: 800;
+}
+/* .headerImg {
+  width: 100%;
+  height: 500px;
+  border: 1px solid black;
+  position: relative;
+  right: 20px;
+  margin-top: 20px;
+  object-fit: cover;
+} */

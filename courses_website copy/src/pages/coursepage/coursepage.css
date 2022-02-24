@@ -1,0 +1,55 @@
+.courseheader {
+  position: relative;
+  top: 15px;
+  left: 0px;
+  margin: 4px 0px;
+  padding: 0px 0px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  width: 100%;
+}
+
+.desbox1 {
+  position: relative;
+  left: 0;
+  width: 58%;
+  height: 700px;
+  padding: 2rem 3rem;
+  border: 2px solid black;
+}
+
+.desbox2 {
+  margin: 1rem 1rem;
+  padding: 4px 4px;
+  height: 100%;
+  width: 100%;
+}
+
+.subnav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 4px 4px;
+}
+.item {
+  padding: 1rem 1rem;
+  cursor: pointer;
+}
+
+.item:hover {
+  color: blue;
+}
+
+.demoplayer {
+  position: relative;
+  left: 5rem;
+  height: 100px;
+  width: 200px;
+  height: 2px;
+  border: 2px solid black;
+}

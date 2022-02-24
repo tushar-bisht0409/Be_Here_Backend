@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(108, 108, 238);
+  height: auto;
+  width: 100%;
+}
+
+.title {
+  margin: 1rem 2rem;
+  padding: 1rem 2rem;
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+}
+
+.categories {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.skills {
+  margin: 1rem 3rem 0rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7rem;
+  width: 10rem;
+  color: white;
+  padding: 4px 4px;
+}

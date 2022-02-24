@@ -1,0 +1,37 @@
+.courseheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.viewbtn {
+  width: 88px;
+  height: 34px;
+  border: none;
+  background-color: blue;
+  cursor: pointer;
+  color: white;
+}
+
+.popularcourses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f5f6f9;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.view-btn {
+  padding: 10px 10px;
+  margin: 6px 9px;
+  font-size: 19px;
+  border: 2px solid #f1e7dc;
+  border-radius: 19px;
+  color: #ebb995;
+  background-color: #fff1e8;
+  cursor: pointer;
+}
